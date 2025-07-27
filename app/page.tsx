@@ -6,6 +6,7 @@ import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import QuietHoursSection from '@/components/sections/QuietHoursSection';
 import GuidelinesSection from '@/components/sections/GuidelinesSection';
 import PageLayout from '@/components/layout/PageLayout';
+import LocationSection from '@/components/sections/LocationSection';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <TestimonialsSection />
         <QuietHoursSection />
         <GuidelinesSection />
+        <LocationSection />
     </PageLayout>
   );
 }

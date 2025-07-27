@@ -1,3 +1,5 @@
+import { JSX, ReactNode } from "react";
+
 export interface NavigationItem {
   label: string;
   href: string;
@@ -9,9 +11,12 @@ export interface Amenity {
   icon: string;
 }
 
-export interface QuietHour {
-  day: string;
+export interface Plan {
+  title: string;
+  description: string;
+  price: string;
   hours: string;
+  icon: JSX.Element;
 }
 
 export interface Guideline {

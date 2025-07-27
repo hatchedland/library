@@ -3,7 +3,6 @@ import { NavigationItem } from './types';
 export const NAVIGATION_ITEMS: NavigationItem[] = [
   { label: 'Home', href: '/' },
   { label: 'Study Spaces', href: '/study-spaces' },
-  { label: 'Resources', href: '/resources' },
   { label: 'About', href: '/about' },
 ];
 
@@ -14,7 +13,6 @@ export const SITE_CONFIG = {
 };
 
 export const FOOTER_LINKS = [
-  { label: 'Contact Us', href: '/contact' },
   { label: 'Privacy Policy', href: '/privacy' },
   { label: 'Terms of Service', href: '/terms' },
 ];
